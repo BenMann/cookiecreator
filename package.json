@@ -1,0 +1,19 @@
+{
+  "name": "cookiemonster",
+  "version": "1.0.0",
+  "description": "cookiejar-client, representing the front-end part: search",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ben Mann",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "ejs": "^2.3.4",
+    "express": "^4.13.3",
+    "request": "^2.67.0",
+    "shortid": "^2.2.4"
+  },
+  "devDependencies": {}
+}

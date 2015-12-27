@@ -1,0 +1,121 @@
+*{
+  margin: 0;
+  apdding: 0;
+}
+
+html,
+body{
+  font-family: "Arial", sans-serif;
+  background-color: #eee;
+}
+
+a,
+a:focus{
+  outline: none;
+}
+
+#pagewrap{
+
+}
+
+#innerwrap{
+  max-width: 900px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  box-sjhadow: 0 2px 2px #ccc;
+  border-radius: 4px;
+}
+
+#header{
+  background-color: #FFCC2F;
+  height: 300px;
+}
+
+#header form{
+  width: 900px;
+  margin: 0 auto;
+  padding-top: 200px;
+}
+
+.row{
+  display: block;
+  margin: 20px 0;
+}
+
+.row label{
+  width: 80px;
+  display: inline-block;
+}
+
+input{
+  padding: 5px;
+  min-height: 25px;
+  min-width: 200px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 18px;
+  color: #333;
+}
+
+.regver{
+  color: #00ACEE;
+  font-size: 12px;
+  margin: 5px 0;
+}
+
+
+#content{
+  padding: 25px 0;
+}
+
+.package{
+  margin: 25px 0;
+  text-decoration: none;
+  color: #333;
+}
+
+.package h2{
+  font-weight: normal;
+  margin: 0 0 10px 0;
+  color: #008ec4;
+}
+
+.package:hover h2{
+  text-decoration: underline;
+}
+
+.package .desc,
+.package .created,
+.package .owner,
+.package .stars,
+.package .updated,
+.package .packagename{
+  display: inline-block;
+  margin: 0 25px;
+}
+
+
+.package .desc,
+.package .packagename{
+  margin: 0;
+  min-width: 550px;
+}
+
+.package.package-info{
+  margin: 0;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #CECECE;
+}
+
+.package.package-info > div{
+  color: #008ec4;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+
+
+#footer{
+
+}
